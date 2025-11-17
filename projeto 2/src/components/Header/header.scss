@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  background-color: rgb(250, 248, 215);
+  justify-content: space-between;
+  align-items: center;
+  ul {
+    display: flex;
+  }
+  li {
+    padding: 10px;
+    list-style: none;
+  }
+  img {
+    padding: 5px;
+  }
+}

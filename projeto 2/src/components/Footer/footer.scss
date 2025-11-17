@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  background-color: antiquewhite;
+  justify-content: space-around;
+  .coluna {
+    display: flex;
+    flex-direction: column;
+
+    width: 30%;
+  }
+  .bancos {
+    flex-wrap: wrap;
+    img {
+      width: 7vh;
+      padding: 1vw;
+      border-radius: 2vw;
+    }
+  }
+}

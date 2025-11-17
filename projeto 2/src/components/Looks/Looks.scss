@@ -1,0 +1,11 @@
+.cartoes {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+    img {
+        height: 70vh;
+        width: 23vw;
+        object-fit: cover;
+    }
+}
